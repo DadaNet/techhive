@@ -25,7 +25,7 @@
     height: initial;
   }
 }
-.fWncqe {
+.hitxt {
   font-family: Helvetica;
   font-size: 5.5rem;
   font-weight: 700;
@@ -64,6 +64,10 @@
   border-style: none;
   border-color: initial;
   border-image: initial;
+}
+.fbHGIt:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(47, 25, 134);
 }
 .iKanwb {
   position: absolute;
@@ -121,4 +125,21 @@
   font-size: 0.875rem;
   width: 8.5rem;
   opacity: 0.8;
+}
+.over_text{
+  font-size: 2.5rem;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  line-height: 3.6875rem;
+  max-width: 800px;
+  text-align: center;
+  opacity: 0.9;
+  color: rgb(21, 9, 64);
+  margin: 0px auto 10rem;
+}
+.logos a img{
+  height: 100%;
+  opacity: 1;
+  width: 9rem;
+  transition: opacity 0.2s ease-in-out 0s;
 }
