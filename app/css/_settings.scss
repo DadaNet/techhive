@@ -93,8 +93,17 @@ fieldset {
     text-shadow: none;
 }
 
+.btn-outline-primary {
+	padding: 0.6rem 1.2rem;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	line-height: 1;
+	color: $black;
+	border-color: $black;
+}
+
 .btn-outline-primary:hover {
 	color: $blue;
-	background-color: none;
+	background-color: transparent;
 	border-color: $blue;
 }
