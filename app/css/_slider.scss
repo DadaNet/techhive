@@ -1,7 +1,4 @@
-.wr-slider {
-  background-color: rgb(247, 247, 247);
-}
-.fhdvoj {
+.section2 {
   font-family: "Open Sans", sans-serif;
   display: flex;
   position: relative;
@@ -12,6 +9,7 @@
   padding: 2rem 2rem 0px;
   overflow: hidden;
 }
+
 .slider {
   margin-top: 4.75rem;
   display: flex;
@@ -20,12 +18,7 @@
   flex-direction: row;
   height: calc(100% - 5.625rem);
 }
-@media (max-height: 768px) {
-  .slider {
-    height: initial;
-  }
-}
-.hitxt {
+.fWncqe {
   font-family: Helvetica;
   font-size: 5.5rem;
   font-weight: 700;
@@ -33,14 +26,10 @@
   width: 35.5rem;
   margin: 0px;
 }
-.cDVpfB {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.125rem;
-  opacity: 0.6;
-  padding: 1.8rem 0px;
-}
-.fbHGIt {
+
+
+
+.left_link {
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   position: relative;
@@ -65,7 +54,7 @@
   border-color: initial;
   border-image: initial;
 }
-.fbHGIt:hover {
+.left_link:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(47, 25, 134);
 }
@@ -76,40 +65,14 @@
   right: 36px;
   transition: all 0.3s ease 0s;
 }
-.iKanwb::before, .iKanwb::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.cDVpfB {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  opacity: 0.6;
+  padding: 1.8rem 0;
 }
-.iKanwb::before {
-  width: 0.5rem;
-  right: 0.1875rem;
-  border-bottom: 1px solid rgb(255, 255, 255);
-  border-color: rgb(255, 255, 255);
-}
-.iKanwb::after {
-  right: 0px;
-  border-style: solid;
-  border-width: 0.1875rem 0px 0.1875rem 0.1875rem;
-  border-color: transparent rgb(255, 255, 255);
-}
-.cgnfVO {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-.efQxH {
-  margin-top: 4.375rem;
-  pointer-events: none;
-  cursor: default;
-}
-.elQZpS {
-  transform: translateX(-4.0625rem);
-}
-.adam {
+.dgLCmT {
   height: 40.125rem;
   width: 47.25rem;
   z-index: 1;
@@ -117,6 +80,9 @@
   background-size: cover;
   transform: translateY(-15px);
   background-repeat: no-repeat;
+}
+.right {
+  transform: translateX(-4.0625rem);
 }
 .gfDrIu {
   position: absolute;
@@ -126,20 +92,8 @@
   width: 8.5rem;
   opacity: 0.8;
 }
-.over_text{
-  font-size: 2.5rem;
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 600;
-  line-height: 3.6875rem;
-  max-width: 800px;
-  text-align: center;
-  opacity: 0.9;
-  color: rgb(21, 9, 64);
-  margin: 0px auto 10rem;
-}
-.logos a img{
-  height: 100%;
-  opacity: 1;
-  width: 9rem;
-  transition: opacity 0.2s ease-in-out 0s;
+.efQxH {
+  margin-top: 4.375rem;
+  pointer-events: none;
+  cursor: default;
 }
