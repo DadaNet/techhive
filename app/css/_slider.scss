@@ -6,7 +6,7 @@
   max-height: 734px;
   height: 100vh;
   min-height: 720px;
-  padding: 2rem 2rem 0px;
+  padding: 0 2rem 2rem 2rem;
   overflow: hidden;
 }
 
@@ -96,4 +96,61 @@
   margin-top: 4.375rem;
   pointer-events: none;
   cursor: default;
+}
+
+
+.section3{
+  background-color: rgb(255, 255, 255);
+  padding: 10rem 0px 7rem;
+}
+.overview{
+  & h2{
+    font-size: 2.5rem;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    line-height: 3.6875rem;
+    max-width: 800px;
+    text-align: center;
+    opacity: 0.9;
+    color: rgb(21, 9, 64);
+    margin: 0px auto 10rem;
+  }
+}
+.logos{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 83%;
+  margin: 0px auto;
+  & a:-webkit-any-link{
+      color: -webkit-link;
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  & a img{
+    height: 100%;
+    opacity: 1;
+    width: 11rem;
+    transition: opacity 0.2s ease-in-out 0s;
+  }
+  & a img:hover{
+    opacity: 0.5;
+  }
+  & .beam{
+    width: 7rem;
+  }
+  & .jackbox{
+    width: 9rem;
+  }
+  & .ngeo{
+    width: 9rem;
+  }
+  & .paradox{
+    width: 11rem;
+  }
+  & .venture{
+    width: 12rem;
+  }
 }
