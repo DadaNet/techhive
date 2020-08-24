@@ -1,10 +1,10 @@
 section {
   padding-top: 4.375rem;
   padding-bottom: 8.5rem;
-  color: $indigo;
+  color: $black;
 
   .title {
-    color: $indigo;
+    color: $black;
     font-size: 2.25rem;
     line-height: 3.5625rem;
     margin: 3.25rem auto;
@@ -16,7 +16,7 @@ section {
       position: absolute;
       width: 100%;
       opacity: 0.4;
-      border-bottom: 1px solid $indigo;
+      border-bottom: 2px solid $primary;
       top: 50%;
       transform: translateX(-105%);
     }
@@ -31,7 +31,7 @@ section {
     align-items: center;
     text-align: center;
     padding: 3rem 2rem;
-    color: $indigo;
+    color: $black;
 
     &_img {
       margin-bottom: 1rem;
