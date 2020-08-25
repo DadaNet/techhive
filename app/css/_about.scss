@@ -193,11 +193,9 @@ h2{
     ul{
       display: flex;
       justify-content: flex-end;
+      margin: 0;
 
       li{
-        width: 25px;
-        height: 25px;
-        background: #000;
         margin: 0 10px;
         &:last-child{
           margin-right: 0;
