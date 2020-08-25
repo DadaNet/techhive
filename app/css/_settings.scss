@@ -22,7 +22,11 @@
 
 
 /* Определяем шрифты */
-$main-font: 'Open Sans', sans-serif;;
+$main-font: 'Ubuntu', sans-serif;
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Regular.ttf") format("opentype");
+}
 
 body {
 	&.onload {overflow:hidden;}
